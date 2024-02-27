@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои заметки</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>  
+        body {
+            background-color: #828282;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        #svaz {
+            padding-left: 335px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Сайт</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Все Заметки</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="myZametki.html">Мои Заметки</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="CreateZametka.html">Создать Заметку</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="input.html">Вход</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registred.html">Регистрация</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row mb-2" >
+    <div class="col-md-6" >
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-light" >
+        <div class="col p-4 d-flex flex-column position-static" id="#Cards">
+          <strong class="d-inline-block mb-2 text-primary">Slime Vime</strong>
+          <h3 class="mb-0">Valentine's drink</h3>
+          <p class="card-text mb-auto">
+            Valentines drink это горный слайм бело-розового цвета с добавлением блесток</p>
+          <a href="https://slimevime.com/main" class="stretched-link">Купить</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="img/слайм.png" alt="" width="270px" height="270px">
+        </div>
+      </div>
+    </div>
+
+
+
+<footer class="bg-light text-center text-lg-start">
+    <div class="container p-4" id="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0" id="svaz">
+                <h5 class="text-uppercase">Связаться со мной</h5>
+                <a href="https://vk.com/uwenr54lkne" class="btn btn-outline-dark btn-social mx-1">
+                    <i class="fab fa-vk"></i>
+                </a>
+                <a href="https://github.com/murLarva" class="btn btn-outline-dark btn-social mx-1">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://facebook.com" class="btn btn-outline-dark btn-social mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://linkedin.com" class="btn btn-outline-dark btn-social mx-1">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Подключение Bootstrap и jQuery (необходим для некоторых функциональных элементов Bootstrap) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
